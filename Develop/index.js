@@ -17,12 +17,6 @@ const questions = [
     },
     {
         type: 'input', 
-        message: 'Enter table of contents:', 
-        name: 'tableOfContents'
-
-    },
-    {
-        type: 'input', 
         message: 'Enter your installation instructions:', 
         name: 'installation'
 
@@ -33,9 +27,9 @@ const questions = [
         name: 'usage'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Choose the license for your project:', 
-        choices: ['MIT', 'GPL-3.0', 'Apache-2.0', 'None'], 
+        choices: ['Apache--2', 'GPL--3', 'MIT', 'BSD--2', 'BSD--3', 'BSL--1', 'EPL--2', 'AGPL--V3', 'GPL--2', 'LGPL--3', 'MPL--2', 'Unlicense'],
         name: 'license' 
     },
 
@@ -45,11 +39,7 @@ const questions = [
         name: 'contributing'
 
     },
-    {
-        type: 'input',
-        message: 'Enter your tests:',
-        name: 'tests'
-    },
+
     {
         type: 'input',
         message: 'Enter your email address:',
@@ -79,6 +69,8 @@ function init() {
     const readmeInput = 
 ` # ${response.title}
 
+[![License](https://img.shields.io/badge/License-${response.license}-blue)](https://opensource.org/license/${response.license})
+
 ## Table of Contents
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
@@ -98,17 +90,14 @@ ${response.installation}
 ## Usage
 ${response.usage}
 
-## License
-This project is licensed under the ${response.license} license.
-
 ## Contributing
 ${response.contributing}
 
-## Tests
-${response.tests}
+## License
+This project is licensed under the ${response.license} license. Please visit [License details](https://opensource.org/licenses/${response.license}) for more information
 
 ## Questions
-If you  have any questions or need further assistance, please contact me at ${response.email} or visit my GitHub profile at [${response.github}]`
+If you  have any questions or need further assistance, please contact me at ${response.email} or visit my GitHub profile at https//github.com/[${response.github}]`
 
 
 

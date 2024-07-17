@@ -1,4 +1,6 @@
- # title
+ # ReadMe Generator
+
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/license/MIT)
 
 ## Table of Contents
 - [Description](#description)
@@ -11,25 +13,19 @@
 - [Questions](#questions)
 
 ## Description
-description
-
-## Table of Contents
-TOC
+This is a command-line application that creates a a professional README.md file based on user input. 
 
 ## Installation
-install inst
+Please made sure that you have node.js installed along with npm Inquirer package
 
 ## Usage
-usage
-
-## License
-This project is licensed under the MIT license.
+Enter the following command to invoke: node index.js
 
 ## Contributing
-undefined
+There are no contributors at this time
 
-## Tests
-tests
+## License
+This project is licensed under the MIT license. Please visit [License details](https://opensource.org/licenses/MIT) for more information
 
 ## Questions
-If you  have any questions or need further assistance, please contact me at undefined or visit my GitHub profile at [undefined]
+If you  have any questions or need further assistance, please contact me at julienne@email.com or visit my GitHub profile at https//github.com/[jknowles10]
