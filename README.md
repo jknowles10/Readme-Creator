@@ -30,7 +30,7 @@ Enter the following command to invoke: node index.js
 
 ## Mock-up
 ![Screenshot of commandline](./Develop/Readme%20Screenshot.png)
-[Video Walkthrough of application in use](./Develop/README_Generator_Screencast.gif) 
+[Video Walkthrough of application in use](./Develop/README%20Generator%20Screencast.webm) 
 
 ## License
 MIT License
