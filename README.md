@@ -32,6 +32,11 @@ Enter the following command to invoke: node index.js
 ![Screenshot of commandline](./Develop/Readme%20Screenshot.png)
 [Video Walkthrough of application in use](./Develop/README%20Generator%20Screencast.webm) 
 
+![Second Link for Screencast](./Develop/README_Generator_Screencast.gif)
+
+[Second Link for Screencast](./Develop/README_Generator_Screencast.gif)
+
+
 ## License
 MIT License
 
