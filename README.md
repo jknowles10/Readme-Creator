@@ -30,11 +30,11 @@ Enter the following command to invoke: node index.js
 
 ## Mock-up
 ![Screenshot of commandline](./Develop/Readme%20Screenshot.png)
-[Video Walkthrough of application in use](./Develop/README%20Generator%20Screencast.webm) 
+[Video Walkthrough of application in use](./Develop/README_Generator_Screencast.webm) 
 
-![Second Link for Screencast](./Develop/README_Generator_Screencast.gif)
-
-[Second Link for Screencast](./Develop/README_Generator_Screencast.gif)
+<video width="640" height="480" controls>
+  <source src="./Develop/README_Generator_Screencast.webm" type="video/webm">
+</video>
 
 
 ## License
